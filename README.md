@@ -32,7 +32,7 @@ Install puppet server
 ```
 Edit puppet.conf
 ---
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/AIMAGU/puppet/blob/master/screenshot/screen1.jpg "Edit Puppet.conf")
 ---
 Edit puppet configuration seperti gambar diatas
 ```
@@ -44,7 +44,7 @@ Set Otomasi Startup puppet
 Set otomasi startup puppet ketika server di restart dengan perintah
 chkconfig puppetmaster on
 ---
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/AIMAGU/puppet/blob/master/screenshot/screen2.jpg "startup")
 ---
 Buka Akses Port 8140
 Membuka akses port 8140 di IPTABLES dengan perintah
@@ -52,11 +52,11 @@ Membuka akses port 8140 di IPTABLES dengan perintah
 IPTABLES -A INPUT -m state –state NEW -m tcp -p tcp –dport 8140 -j ACCEPT
 ```
 ---
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/AIMAGU/puppet/blob/master/screenshot/screen3.jpg "Open port")
 ---
 Jalankan Puppet
 ---
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/AIMAGU/puppet/blob/master/screenshot/screen4.jpg "Jalankan puppet")
 ---
 ### Client Server
 Lakukan instalasi yang sama pada client server seperti cara diatas.
@@ -104,7 +104,7 @@ Pada client server Buat Sertifikat Sign client server kalian ke master server de
 puppet cert sign puppet-client.rochim.com
 ```
 ---
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/AIMAGU/puppet/blob/master/screenshot/screen5.jpg "test installasi")
 ---
 Jalankan perintah puppet agent dengan perintah
 ```
