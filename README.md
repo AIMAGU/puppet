@@ -1,3 +1,5 @@
+![alt text](https://github.com/AIMAGU/puppet/blob/master/screenshot/screen0.jpg "Nur Rochim")
+---
 # Infrastructure as Code - Puppet
 Infrastructure as Code (IaC) atau Programmable Infrastructure adalah runtutan penyediaan infrastruktur IT yang dikelola melalui baris kode secara otomatis. 
 
